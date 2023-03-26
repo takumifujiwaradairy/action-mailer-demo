@@ -3,6 +3,7 @@ class UsersController < ApplicationController
 
   # GET /users or /users.json
   def index
+    binding.pry
     @users = User.all
   end
 
